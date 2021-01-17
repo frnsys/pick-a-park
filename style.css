@@ -10,6 +10,8 @@ body {
   font-size: 3em;
   font-style: normal;
   font-weight: bold;
+  color: #5e84be;
+  font-variant-caps: petite-caps;
 }
 
 #selected-park-info {
