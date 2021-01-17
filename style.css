@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-#select-park {
+#selected-park {
   color: green;
   font-size: 3em;
 }
