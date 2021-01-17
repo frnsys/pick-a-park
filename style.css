@@ -1,11 +1,15 @@
 body {
   font-family: monospace;
   text-align: center;
+  font-style: italic: italic;
+  background-color: ##d7faf2
 }
 
 #selected-park {
   color: green;
   font-size: 3em;
+  font-style: normal;
+  font-weight: bold;
 }
 
 #selected-park-info {
