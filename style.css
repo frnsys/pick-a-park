@@ -1,0 +1,28 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+
+#select-park {
+  color: green;
+  font-size: 3em;
+}
+
+#selected-park-info {
+  display: none;
+}
+
+#selected-park-map {
+  display: block;
+  margin: 0 auto 1em;
+}
+#selected-park-street-view {
+  background: #333;
+  color: #fff;
+  padding: 0.2em 0.3em;
+  border-radius: 0.2em;
+  text-decoration: none;
+}
+#selected-park-street-view:hover {
+  background: #3f3f3f;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>pick a park</title>
+  <meta property="og:site_name" content="pick a park">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="(any park)">
+  <meta property="og:title" content="pick a park">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="pick a park">
+  <meta name="twitter:description" content="(any park)">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>pick a park</h1>
+    </header>
+    <main>
+        <select id="select-borough">
+            <option value="brooklyn">Brooklyn</option>
+            <option value="bronx">The Bronx</option>
+            <option value="manhattan">Manhattan</option>
+            <option value="queens">Queens</option>
+            <option value="staten_island">Staten Island</option>
+        </select>
+        <button id="select-park">Pick a Park</button>
+        <h2 id="selected-park"></h2>
+        <div id="selected-park-info">
+            <iframe id="selected-park-map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="" style="border: 1px solid black"></iframe>
+            <a id="selected-park-street-view" href="" target="_blank">👀 Sneak peek</a>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
