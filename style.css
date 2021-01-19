@@ -21,6 +21,7 @@ body {
 #selected-park-map {
   display: block;
   margin: 0 auto 1em;
+  max-width: 100%;
 }
 #selected-park-street-view {
   background: #333;
