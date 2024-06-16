@@ -3,6 +3,11 @@ body {
   text-align: center;
   font-style: italic: italic;
   background-color: #d7faf2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
 }
 
 #selected-park {
@@ -32,4 +37,8 @@ body {
 }
 #selected-park-street-view:hover {
   background: #3f3f3f;
+}
+
+#error-message {
+  margin: 2em 0;
 }

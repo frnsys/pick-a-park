@@ -15,18 +15,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>pick a park:</h1>
-    </header>
     <main>
-        <select id="select-borough">
-            <option value="brooklyn">Brooklyn</option>
-            <option value="bronx">The Bronx</option>
-            <option value="manhattan">Manhattan</option>
-            <option value="queens">Queens</option>
-            <option value="staten_island">Staten Island</option>
-        </select>
+        <header>
+            <h1>pick a park:</h1>
+        </header>
+        <input type="text" autofocus id="area-query" placeholder="Around where?" />
         <button id="select-park">Pick a Park</button>
+
+        <div id="error-message"></div>
+
         <h2 id="selected-park"></h2>
         <div id="selected-park-info">
             <iframe id="selected-park-map" width="425" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="" style="border: 1px solid black"></iframe>
